@@ -1,5 +1,5 @@
 function AppNav() {
-  return <nav>AppNav</nav>;
+  return <div>AppNav</div>;
 }
 
 export default AppNav;
