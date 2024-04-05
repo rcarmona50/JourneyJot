@@ -1,8 +1,11 @@
+import { useContext } from "react";
 import CityItem from "./CityItem";
 import styles from "./CityList.module.css";
 import Message from "./Message";
+import { useCities } from "../contexts/CitiesContext";
 
-function CityList({ cities }) {
+function CityList() {
+  const { cities } = useCities();
   if (!cities.length)
     return <Message message="Welcome! Add a city first please!" />;
   return (

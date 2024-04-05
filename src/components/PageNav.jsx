@@ -6,6 +6,7 @@ function PageNav() {
   return (
     <nav className={styles.nav}>
       <Logo />
+      <h1 className={styles.title}>Worldwise</h1>
       <ul>
         <li>
           <NavLink to="/pricing">Pricing</NavLink>
