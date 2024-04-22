@@ -1,6 +1,9 @@
 import styles from "./Login.module.css";
 import { useState } from "react";
 import PageNav from "../components/PageNav";
+import styles3 from "../components/PageNav.module.css";
+
+import { NavLink } from "react-router-dom";
 
 export default function Login() {
   // PRE-FILL FOR DEV PURPOSES
@@ -32,7 +35,9 @@ export default function Login() {
         </div>
 
         <div>
-          <button>Login</button>
+          <NavLink to="/app" className={styles3.ctaLink}>
+            Login
+          </NavLink>
         </div>
       </form>
     </main>
