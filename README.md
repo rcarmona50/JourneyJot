@@ -1,8 +1,9 @@
-# React + Vite
+JourneyJot – (JavaScript, React, Node.js, and Express) 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Personal Travel Journal: Developed a full-stack web application that allows users to document and share their travel experiences.
+User Authentication: Implemented secure user registration and login using Passport.js, with JWT for session management.
+CRUD Functionality: Enabled users to create, read, update, and delete travel logs, with rich text editing for detailed journaling.
+Map Integration: Integrated Google Maps API to allow users to pin locations and visualize their travel routes.
+Responsive Design: Ensured a seamless user experience across various devices with a responsive UI built using React and Bootstrap.
+Real-time Updates: Leveraged WebSockets to provide real-time updates and notifications for collaborative journaling.
+Data Management: Utilized MongoDB for efficient storage and retrieval of user-generated content and travel data.
